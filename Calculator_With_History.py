@@ -5,7 +5,7 @@ def show():
      f = open("history.txt")
      lines = f.readlines()
      for i in lines:
-         print(i "\n")
+         print(i)
      
      f.close()
 def clear():
